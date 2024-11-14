@@ -17,3 +17,26 @@ Para completar el desafío con AWS-CLI, Cloudformation y CDK, el estudiante debe
 4. **Escribir un Informe**: Documenta tu experimento en el README del repositorio de GitHub. Asegúrate de agregar capturas de pantalla y evidencia de tus resultados.
 
 ¡Buena suerte!
+
+
+## Creando el proyecto CDK
+
+para crear un proyecto CDK nuevo, este debe tener su propio directorio, para esto ejecutaremos el siguiente comando, el cual le crea su propio directorio y nos deja en esta carpeta
+
+```bash
+mkdir hello-cdk && cd hello-cdk
+```
+
+![alt text](docs/imgs/01.png)
+
+
+ahora para inicializar un proyecto cdk utilizaremos cdk init y en nuestro case lo haremos en base a java
+```bash
+cdk init app --language java
+```
+
+![alt text](docs/imgs/02.png)
+
+si todo sale bien en nuestra carpeta se creo una estructura java como la siguiente
+
+![alt text](docs/imgs/03.png)
