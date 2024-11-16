@@ -5,8 +5,8 @@ import software.amazon.awscdk.Environment;
 import software.amazon.awscdk.StackProps;
 
 public class HelloCdkApp {
-    private static final String awsAccountId = System.getenv("awsAccountId");
-    private static final String awsRegion = System.getenv("awsRegion");
+    private static final String awsAccountId = "134744162619";
+    private static final String awsRegion = "us-east-1";
 
     public static void main(final String[] args) {
         App app = new App();
